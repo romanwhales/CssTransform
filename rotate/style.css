@@ -1,0 +1,28 @@
+body{
+    background-color: gainsboro;
+}
+.box{
+    height: 300px;
+    width: 70%;
+    margin: 50px auto;
+    background-image: url('img/2.1-anthony-delanoix-28851.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:5px solid #fff;
+    transition: transform 1s ease-out;
+    transform-origin: top left;
+}
+
+.box:hover{
+    /* transform:rotate(180deg); */
+    /* transform: rotate(2turn); */
+    /* Scale*/
+    /* transform: scale(1.5); */
+    /* Skew */
+    /* transform: skew(10deg,5deg); */
+    /* Translate */
+    /* transform:translateY(50px); */
+    /* transform: rotate(50deg); */
+    /* All Properties */
+    transform: scale(1.5);
+}
